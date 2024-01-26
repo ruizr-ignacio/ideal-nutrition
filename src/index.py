@@ -1,25 +1,20 @@
-import PyPDF2
+import os
+from pdf_helpers import safeFile
+from analyzer import extract_pdf_info
 
-def extract_pdf_info(file_path):
-    # Open the PDF file
-    with open(file_path, 'rb') as file:
-        reader = PyPDF2.PdfFileReader(file)
+def main():    
+    # Path to your PDF file
+    file_path = os.path.dirname(__file__) + '/input/2023-08-IgnacioRuiz.pdf'
 
-        # Extract text from the first two pages
-        page1_text = reader.getPage(0).extractText()
-        page2_text = reader.getPage(1).extractText()
+    # Extract information
+    general_info, physical_measurements, meals = extract_pdf_info(file_path)
 
-        # Process the text to extract relevant information
-        general_info = extract_general_info(page1_text)
-        physical_measurements = extract_physical_measurements(page2_text)
+    data = {
+        "general_info": general_info,
+        "physical_measurements": physical_measurements,
+        "meals": meals
+    }
+    safeFile('output', data)
 
-        return general_info, physical_measurements
 
-# Path to your PDF file
-file_path = '/input/2023-08-IgnacioRuiz.pdf'
-
-# Extract information
-general_info, physical_measurements = extract_pdf_info(file_path)
-
-print("General Information:", general_info)
-print("Physical Measurements:", physical_measurements)
+main()
