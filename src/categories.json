@@ -1,0 +1,622 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Verduras"
+        },
+        {
+            "id": 2,
+            "name": "Frutas"
+        },
+        {
+            "id": 3,
+            "name": "Aceites y grasas"
+        },
+        {
+            "id": 4,
+            "name": "Aceites y grasas con proteina"
+        },
+        {
+            "id": 5,
+            "name": "Cereales"
+        },
+        {
+            "id": 6,
+            "name": "Leguminosas"
+        },
+        {
+            "id": 7,
+            "name": "Lacteos descremados"
+        },
+        {
+            "id": 8,
+            "name": "Lacteos enteros"
+        },
+        {
+            "id": 9,
+            "name": "Alimentos de origen animal - Muy bajo aporte de grasa"
+        },
+        {
+            "id": 10,
+            "name": "Alimentos de origen animal - Bajo aporte de grasa"
+        },
+        {
+            "id": 11,
+            "name": "Alimentos de origen animal - Moderado aporte de grasa"
+        }
+    ],
+    "food": {
+        "1": [
+            {
+                "name": "Verdura",
+                "quantity": "1 taza",
+                "weight": ""
+            }
+        ],
+        "2": [
+            {
+                "name": "Arándano fresco",
+                "quantity": "1 1/2 taza",
+                "weight": "147g"
+            },
+            {
+                "name": "Blueberries",
+                "quantity": "1/4 taza",
+                "weight": "107g"
+            },
+            {
+                "name": "Durazno",
+                "quantity": "2pieza",
+                "weight": "153g"
+            },
+            {
+                "name": "Fresa rebanada",
+                "quantity": "1 taza",
+                "weight": "166g"
+            },
+            {
+                "name": "Guayaba",
+                "quantity": "3 pieza",
+                "weight": "124g"
+            },
+            {
+                "name": "Kiwi",
+                "quantity": "1 1/2 pieza",
+                "weight": "114g"
+            },
+            {
+                "name": "Mandarina",
+                "quantity": "2 pieza",
+                "weight": "128g"
+            },
+            {
+                "name": "Mango picado",
+                "quantity": "1 taza",
+                "weight": "165g"
+            },
+            {
+                "name": "Manzana",
+                "quantity": "1 pieza",
+                "weight": "106g"
+            },
+            {
+                "name": "Melón picado",
+                "quantity": "1 taza",
+                "weight": "160g"
+            },
+            {
+                "name": "Naranja",
+                "quantity": "2pieza",
+                "weight": "152g"
+            },
+            {
+                "name": "Papaya picada",
+                "quantity": "1 taza",
+                "weight": "140g"
+            },
+            {
+                "name": "Pera",
+                "quantity": "1/2 pieza",
+                "weight": "81g"
+            },
+            {
+                "name": "Piña picada",
+                "quantity": "1/4 taza",
+                "weight": "124g"
+            },
+            {
+                "name": "Plátano",
+                "quantity": "1/2 pieza",
+                "weight": "54g"
+            },
+            {
+                "name": "Sandia picada",
+                "quantity": "1 taza",
+                "weight": "160g"
+            },
+            {
+                "name": "Toronja",
+                "quantity": "1 pieza",
+                "weight": "172g"
+            },
+            {
+                "name": "Uva",
+                "quantity": "18 pieza",
+                "weight": "86g"
+            }
+        ],
+        "3": [
+            {
+                "name": "Aceite vegetal",
+                "quantity": "1 cucharadita (5ml)",
+                "weight": ""
+            },
+            {
+                "name": "Pam",
+                "quantity": "5 segundos",
+                "weight": ""
+            },
+            {
+                "name": "Aceitunas",
+                "quantity": "5 piezas",
+                "weight": ""
+            },
+            {
+                "name": "Aguacate",
+                "quantity": "1/3 de pieza",
+                "weight": ""
+            },
+            {
+                "name": "Coco",
+                "quantity": "8g",
+                "weight": ""
+            },
+            {
+                "name": "Crema",
+                "quantity": "1 cucharada",
+                "weight": ""
+            },
+            {
+                "name": "Mantequilla",
+                "quantity": "1 1/2 cucharadita",
+                "weight": ""
+            },
+            {
+                "name": "Margarina",
+                "quantity": "1 cucharadita",
+                "weight": ""
+            },
+            {
+                "name": "Mayonesa",
+                "quantity": "1 cucharadita",
+                "weight": ""
+            },
+            {
+                "name": "Vinagreta",
+                "quantity": "1/2 cucharada",
+                "weight": ""
+            }
+        ],
+        "4": [
+            {
+                "name": "Almendra",
+                "quantity": "10 pieza",
+                "weight": ""
+            },
+            {
+                "name": "Cacahuate",
+                "quantity": "14 pieza",
+                "weight": ""
+            },
+            {
+                "name": "Chía",
+                "quantity": "7 cucharada",
+                "weight": ""
+            },
+            {
+                "name": "Nuez",
+                "quantity": "3 pieza",
+                "weight": ""
+            },
+            {
+                "name": "Crema de cacahuate",
+                "quantity": "5 cucharaditas",
+                "weight": ""
+            },
+            {
+                "name": "Semilla de calabaza",
+                "quantity": "1 1/2 cucharada",
+                "weight": ""
+            },
+            {
+                "name": "Semilla de girasol",
+                "quantity": "12 g",
+                "weight": ""
+            }
+        ],
+        "5": [
+            {
+                "name": "Amaranto tostado",
+                "quantity": "1/4 taza",
+                "weight": "16g"
+            },
+            {
+                "name": "Arroz cocido",
+                "quantity": "1/4 taza",
+                "weight": "47g"
+            },
+            {
+                "name": "Arroz crudo",
+                "quantity": "20g",
+                "weight": "20g"
+            },
+            {
+                "name": "Arroz integral cocido",
+                "quantity": "1/3 taza",
+                "weight": "65g"
+            },
+            {
+                "name": "Arroz integral crudo",
+                "quantity": "20g",
+                "weight": "20g"
+            },
+            {
+                "name": "Avena cocida",
+                "quantity": "3/4 taza",
+                "weight": "164g"
+            },
+            {
+                "name": "Avena en hojuelas",
+                "quantity": "1/2 taza",
+                "weight": "20g"
+            },
+            {
+                "name": "Bolillo",
+                "quantity": "1/3 taza",
+                "weight": "20g"
+            },
+            {
+                "name": "Camote cocido",
+                "quantity": "1/3 taza",
+                "weight": "69g"
+            },
+            {
+                "name": "Elote amarillo desgranado cocido",
+                "quantity": "1/2 taza",
+                "weight": "83g"
+            },
+            {
+                "name": "Salmas",
+                "quantity": "3 pieza",
+                "weight": "18g"
+            },
+            {
+                "name": "Granola baja en grasa",
+                "quantity": "3 cucharada",
+                "weight": "18g"
+            },
+            {
+                "name": "Habaneras integrales",
+                "quantity": "4 galleta",
+                "weight": "18g"
+            },
+            {
+                "name": "Palomitas",
+                "quantity": "2 1/2 taza",
+                "weight": "18g"
+            },
+            {
+                "name": "Pan árabe integral",
+                "quantity": "1/3 pieza",
+                "weight": "21g"
+            },
+            {
+                "name": "Pan blanco",
+                "quantity": "1 rebanada",
+                "weight": "27g"
+            },
+            {
+                "name": "Pan integral",
+                "quantity": "1 rebanada",
+                "weight": "25g"
+            },
+            {
+                "name": "Papa cocida",
+                "quantity": "1/2 pieza",
+                "weight": "68g"
+            },
+            {
+                "name": "Pastas crudas",
+                "quantity": "20g",
+                "weight": "20g"
+            },
+            {
+                "name": "Quínoa",
+                "quantity": "20g",
+                "weight": "20g"
+            },
+            {
+                "name": "Telera",
+                "quantity": "1/3 pieza",
+                "weight": "23g"
+            },
+            {
+                "name": "Tortilla",
+                "quantity": "1 pieza",
+                "weight": "30g"
+            },
+            {
+                "name": "Tortilla de nopal",
+                "quantity": "3 pieza",
+                "weight": " 69g"
+            },
+            {
+                "name": "Tostada de nopal",
+                "quantity": "3 pieza",
+                "weight": " 69g"
+            },
+            {
+                "name": "Tostada de maíz",
+                "quantity": "2 pieza",
+                "weight": "20g"
+            }
+        ],
+        "6": [
+            {
+                "name": "Frijol cocido",
+                "quantity": "1/2 taza",
+                "weight": "86g"
+            },
+            {
+                "name": "Garbanzo cocido",
+                "quantity": "1/2 taza",
+                "weight": "82g"
+            },
+            {
+                "name": "Garbanzo crudo",
+                "quantity": "35g",
+                "weight": "35g"
+            },
+            {
+                "name": "Haba cocida",
+                "quantity": "1/2 taza",
+                "weight": "85g"
+            },
+            {
+                "name": "Haba cruda",
+                "quantity": "1/4 taza",
+                "weight": "38g"
+            },
+            {
+                "name": "Humus",
+                "quantity": "5 cucharadas",
+                "weight": "75g"
+            },
+            {
+                "name": "Lenteja cocida",
+                "quantity": "1/2 taza",
+                "weight": "99g"
+            },
+            {
+                "name": "Lenteja cruda",
+                "quantity": "35g",
+                "weight": "35g"
+            },
+            {
+                "name": "Soya cocida",
+                "quantity": "1/3 taza",
+                "weight": "57g"
+            },
+            {
+                "name": "Soya texturizada",
+                "quantity": "30g",
+                "weight": "30g"
+            }
+        ],
+        "7": [
+            {
+                "name": "Leche de soya",
+                "quantity": "1 taza",
+                "weight": ""
+            },
+            {
+                "name": "Leche light",
+                "quantity": "1 taza",
+                "weight": ""
+            },
+            {
+                "name": "Yogurt light",
+                "quantity": "3/4 taza",
+                "weight": ""
+            }
+        ],
+        "8": [
+            {
+                "name": "Jocoque",
+                "quantity": "5 cucharada",
+                "weight": ""
+            },
+            {
+                "name": "Leche entera",
+                "quantity": "1 taza",
+                "weight": ""
+            },
+            {
+                "name": "Yogurt",
+                "quantity": "1 taza",
+                "weight": ""
+            }
+        ],
+        "9": [
+            {
+                "name": "Atún fresco",
+                "quantity": "30g",
+                "weight": ""
+            },
+            {
+                "name": "Atún en lata",
+                "quantity": "1/3",
+                "weight": ""
+            },
+            {
+                "name": "Bistec de res",
+                "quantity": "30g",
+                "weight": ""
+            },
+            {
+                "name": "Camarón mediano",
+                "quantity": "6 piezas",
+                "weight": ""
+            },
+            {
+                "name": "Carne de res seca",
+                "quantity": "11g",
+                "weight": ""
+            },
+            {
+                "name": "Chuleta ahumada",
+                "quantity": "40g",
+                "weight": ""
+            },
+            {
+                "name": "Clara de huevo",
+                "quantity": "2 (66g)",
+                "weight": ""
+            },
+            {
+                "name": "Falda de res",
+                "quantity": "35g",
+                "weight": ""
+            },
+            {
+                "name": "Filete de pescado",
+                "quantity": "40g",
+                "weight": ""
+            },
+            {
+                "name": "Machaca",
+                "quantity": "13g",
+                "weight": ""
+            },
+            {
+                "name": "Milanesa pollo/res",
+                "quantity": "30g",
+                "weight": ""
+            },
+            {
+                "name": "Pechuga de pollo",
+                "quantity": "30g",
+                "weight": ""
+            },
+            {
+                "name": "Queso cottage",
+                "quantity": "48g",
+                "weight": ""
+            },
+            {
+                "name": "Queso mozzarella cero grasa",
+                "quantity": "1 rebanada (28g)",
+                "weight": ""
+            },
+            {
+                "name": "Tampiqueña",
+                "quantity": "30g",
+                "weight": ""
+            }
+        ],
+        "10": [
+            {
+                "name": "Falda de cerdo",
+                "quantity": "40g",
+                "weight": ""
+            },
+            {
+                "name": "Filete de salmón",
+                "quantity": "30g",
+                "weight": ""
+            },
+            {
+                "name": "Hígado de res",
+                "quantity": "30g",
+                "weight": ""
+            },
+            {
+                "name": "Jamón pavo/pierna",
+                "quantity": "2 rebanadas (42g)",
+                "weight": ""
+            },
+            {
+                "name": "Milanesa cerdo",
+                "quantity": "40g",
+                "weight": ""
+            },
+            {
+                "name": "Molida de res",
+                "quantity": "30g",
+                "weight": ""
+            },
+            {
+                "name": "Queso fresco",
+                "quantity": "40g",
+                "weight": ""
+            },
+            {
+                "name": "Panela",
+                "quantity": "40g",
+                "weight": ""
+            },
+            {
+                "name": "Queso Oaxaca light",
+                "quantity": "30g",
+                "weight": ""
+            },
+            {
+                "name": "Queso ricota reducido en grasa",
+                "quantity": "3 cucharadas (45g)",
+                "weight": ""
+            },
+            {
+                "name": "Milanesa  pollo/res",
+                "quantity": "30g",
+                "weight": ""
+            },
+            {
+                "name": "Pechuga de pollo",
+                "quantity": "30g",
+                "weight": ""
+            },
+            {
+                "name": "Queso cottage",
+                "quantity": "48g",
+                "weight": ""
+            },
+            {
+                "name": "Queso mozzarella cero grasa",
+                "quantity": "1 rebanada (28g)",
+                "weight": ""
+            },
+            {
+                "name": "Trucha",
+                "quantity": "70g",
+                "weight": ""
+            }
+        ],
+        "11": [
+            {
+                "name": "Huevo entero",
+                "quantity": "1",
+                "weight": ""
+            },
+            {
+                "name": "Queso parmesano",
+                "quantity": "3 1/2 cucharada",
+                "weight": ""
+            },
+            {
+                "name": "Salchicha de pavo",
+                "quantity": "1 pieza",
+                "weight": ""
+            }
+        ]
+    }
+}

@@ -179,3 +179,5 @@ files/
 
 **/**pdf
 **/**.json
+
+!categories.json
