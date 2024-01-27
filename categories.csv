@@ -1,0 +1,68 @@
+Alimentos de origen Animal
+Muy bajo aporte de grasa
+
+name,quantity,weigth
+Atún fresco,30g,
+Atún en lata,0.333,
+Bistec de res,30g,
+Camarón mediano,6 piezas,
+Carne de res seca,11g,
+Chuleta ahumada,40g,
+Clara de huevo,2 (66g),
+Falda de res,35g,
+Filete de pescado,40g,
+Machaca,13g,
+Milanesa pollo/res,30g,
+Pechuga de pollo,30g,
+Queso cottage,48g,
+Queso mozzarella cero grasa,1 rebanada (28g),
+Tampiqueña,30g,
+
+Bajo aporte de grasa
+name,quantity,weigth
+Falda de cerdo,40g,
+Filete de salmón,30g,
+Hígado de res,30g,
+Jamón pavo/pierna,2 rebanadas (42g),
+Milanesa cerdo,40g,
+Molida de res,30g,
+Queso fresco,40g,
+Panela,40g,
+Queso Oaxaca light,30g,
+Queso ricota reducido en grasa,3 cucharadas (45g),
+Milanesa  pollo/res,30g,
+Pechuga de pollo,30g,
+Queso cottage,48g,
+Queso mozzarella cero grasa,1 rebanada (28g),
+Trucha,70g,
+
+Moderado aporte de grasa
+name,quantity,weigth
+Huevo entero,1,
+Queso parmesano,3.5 cucharada,
+Salchicha de pavo,1 pieza,
+
+Verduras
+name,quantity,weigth
+Verdura,1 taza,
+
+Frutas
+name,quantity,weigth
+Arándano fresco,1.5 taza,147g,
+Blueberries,0.75 taza,107g
+Durazno,2pieza,153g
+Fresa rebanada,1 taza,166g
+Guayaba,3 pieza,124g
+Kiwi,1.5 pieza,114g
+Mandarina,2 pieza,128g
+Mango picado,1 taza,165g
+Manzana,1 pieza,106g
+Melón picado,1 taza,160g
+Naranja,2pieza,152g
+Papaya picada,1 taza,140g
+Pera,0.5 pieza,81g
+Piña picada,0.75 taza,124g
+Plátano,0.5 pieza,54g
+Sandia picada,1 taza,160g
+Toronja,1 pieza,172g
+Uva,18 pieza,86g

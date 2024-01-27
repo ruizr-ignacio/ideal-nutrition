@@ -1,4 +1,4 @@
-import fitz  # PyMuPDF
+import fitz
 
 def extract_text_from_pdf_fitz(pdf_path, page_number):
     # Open the PDF file
