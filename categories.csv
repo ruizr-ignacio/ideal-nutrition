@@ -3,7 +3,7 @@ Muy bajo aporte de grasa
 
 name,quantity,weigth
 Atún fresco,30g,
-Atún en lata,0.333,
+Atún en lata,1/3,
 Bistec de res,30g,
 Camarón mediano,6 piezas,
 Carne de res seca,11g,
@@ -39,7 +39,7 @@ Trucha,70g,
 Moderado aporte de grasa
 name,quantity,weigth
 Huevo entero,1,
-Queso parmesano,3.5 cucharada,
+Queso parmesano,3 1/2 cucharada,
 Salchicha de pavo,1 pieza,
 
 Verduras
@@ -48,21 +48,85 @@ Verdura,1 taza,
 
 Frutas
 name,quantity,weigth
-Arándano fresco,1.5 taza,147g,
-Blueberries,0.75 taza,107g
+Arándano fresco,1 1/2 taza,147g,
+Blueberries,1/4 taza,107g
 Durazno,2pieza,153g
 Fresa rebanada,1 taza,166g
 Guayaba,3 pieza,124g
-Kiwi,1.5 pieza,114g
+Kiwi,1 1/2 pieza,114g
 Mandarina,2 pieza,128g
 Mango picado,1 taza,165g
 Manzana,1 pieza,106g
 Melón picado,1 taza,160g
 Naranja,2pieza,152g
 Papaya picada,1 taza,140g
-Pera,0.5 pieza,81g
-Piña picada,0.75 taza,124g
-Plátano,0.5 pieza,54g
+Pera,1/2 pieza,81g
+Piña picada,1/4 taza,124g
+Plátano,1/2 pieza,54g
 Sandia picada,1 taza,160g
 Toronja,1 pieza,172g
 Uva,18 pieza,86g
+
+Aceites y grasas
+name,quantity,weigth
+Aceite vegetal,1 cucharadita (5ml),
+Pam,5 segundos,
+Aceitunas,5 piezas,
+Aguacate,1/3 de pieza,
+Coco,8g,
+Crema,1 cucharada,
+Mantequilla,1 1/2 cucharadita,
+Margarina,1 cucharadita,
+Mayonesa,1 cucharadita,
+Vinagreta,1/2 cucharada,
+
+Aceites y grasas con proteina
+name,quantity,weigth
+Almendra,10 pieza,
+Cacahuate,14 pieza,
+Chía,7 cucharada,
+Nuez,3 pieza,
+Crema de cacahuate,5 cucharaditas,
+Semilla de calabaza,1 1/2 cucharada,
+Semilla de girasol,12 g,
+
+Cereales
+name,quantity,weigth
+Amaranto tostado,1/4 taza,16g
+Arroz cocido,1/4 taza,47g
+Arroz crudo,20g,20g
+Arroz integral cocido,1/3 taza,65g
+Arroz integral crudo,20g,20g
+Avena cocida,3/4 taza,164g
+Avena en hojuelas,1/2 taza,20g
+Bolillo,1/3 taza,20g
+Camote cocido,1/3 taza,69g
+Elote amarillo desgranado cocido,1/2 taza,83g
+Salmas,3 pieza,18g,
+Granola baja en grasa,3 cucharada,18g,
+Habaneras integrales,4 galleta,18g,
+Palomitas,2 1/2 taza,18g,
+Pan árabe integral,1/3 pieza,21g
+Pan blanco,1 rebanada,27g
+Pan integral,1 rebanada,25g
+Papa cocida,1/2 pieza,68g
+Pastas crudas,20g,20g
+Quínoa,20g,20g
+Telera,1/3 pieza,23g
+Tortilla,1 pieza,30g
+Tortilla de nopal,3 pieza, 69g
+Tostada de nopal,3 pieza, 69g
+Tostada de maíz,2 pieza,20g
+
+Leguminosas
+name,quantity,weigth
+Frijol cocido,1/2 taza,86g
+Garbanzo cocido,1/2 taza,82g
+Garbanzo crudo,35g,35g
+Haba cocida,1/2 taza,85g
+Haba cruda,1/4 taza,38g
+Humus,5 cucharadas,75g
+Lenteja cocida,1/2 taza,99g
+Lenteja cruda,35g,35g
+Soya cocida,1/3 taza,57g
+Soya texturizada,30g,30g
