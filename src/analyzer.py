@@ -2,7 +2,6 @@ import PyPDF2
 
 from readGeneralnfo import extract_general_info
 from readMeasurements import extract_physical_measurements
-# from extractPage import extract_text_from_pdf_fitz
 from readTable import parse_meal_plan
 from pdf_helpers import extract_text_from_pdf_fitz
 
