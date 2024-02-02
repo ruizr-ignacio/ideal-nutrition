@@ -1,0 +1,8 @@
+{
+  "name": "nutrition",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ruizr-ignacio/ideal-nutrition.git",
+  "author": "Ignacio Ruiz Ramirez <ruizr.ignacio@gmail.com>",
+  "license": "MIT"
+}
