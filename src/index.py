@@ -4,7 +4,8 @@ from analyzer import extract_pdf_info
 
 def main():    
     # Path to your PDF file
-    file_path = os.path.dirname(__file__) + '/input/2023-08-IgnacioRuiz.pdf'
+    file_name = '24-01_Ignacio-Ruiz';
+    file_path = os.path.dirname(__file__) + '/input/' + file_name + '.pdf'
 
     # Extract information
     general_info, physical_measurements, meals = extract_pdf_info(file_path)
@@ -14,7 +15,6 @@ def main():
         "physical_measurements": physical_measurements,
         "meals": meals
     }
-    safeFile('output', data)
-
+    safeFile(file_name, data)
 
 main()

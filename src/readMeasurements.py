@@ -3,21 +3,24 @@ import re
 def extract_physical_measurements(text):
     measurements = {}
 
-    weight_match = re.search(r'Peso\s*\(\s*kg\s*\)\s*(\d+\.\d+)', text)
-    if weight_match:
-        measurements['weight'] = weight_match.group(1).strip()
+    def extract_last_value(pattern):
+        match = re.search(pattern, text)
+        if match:
+            values = match.group(1).strip().split(' ')
+            return values[-1]
+        return None
 
-    body_fat_match = re.search(r'%\s*Grasa\s*(\d+\.\d+)', text)
-    if body_fat_match:
-        measurements['body_fat_percentage'] = body_fat_match.group(1).strip()
+    # Patterns for each measurement
+    patterns = {
+        'weight': r'Peso\s*\(kg\)\s*((?:\d+\.\d+\s*)+)',
+        'body_fat_percentage': r'%\s*Grasa\s*((?:\d+\.\d+\s*)+)',
+        'lean_mass': r'Masa\s*magra\s*\(kg\)\s*((?:\d+\.\d+\s*)+)',
+        'bone_mass': r'Masa\s*ósea\s*\(kg\)\s*((?:\d+\.\d+\s*)+)'
+    }
 
-    lean_mass_match = re.search(r'Masa\s*magra\s*\(\s*kg\s*\)\s*(\d+\.\d+)', text)
-    if lean_mass_match:
-        measurements['lean_mass'] = lean_mass_match.group(1).strip()
-
-    bone_mass_match = re.search(r'Masa\s*ósea\s*\(\s*kg\s*\)\s*(\d+\.\d+)', text)
-    if bone_mass_match:
-        measurements['bone_mass'] = bone_mass_match.group(1).strip()
+    # Extract the last value for each measurement
+    for key, pattern in patterns.items():
+        measurements[key] = extract_last_value(pattern)
 
     # Circumferences
     circumferences = {}
